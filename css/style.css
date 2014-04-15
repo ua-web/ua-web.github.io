@@ -16,7 +16,7 @@ a {
     font-weight: bold;
 }
 a:hover {
-    color:#111111;
+    color:#ffffff;
     text-decoration: none;
 }
 h2 {
@@ -42,6 +42,7 @@ h2 {
 p, ul {
     color: #eeeeee;
     font-family: 'Open Sans',sans-serif;
+    font-weight:bold;
 }
 p {
     font-size:20px;

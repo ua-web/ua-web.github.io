@@ -6,6 +6,15 @@
 <link href="/css/style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=493630977377491";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <div id="container">
         <img alt="" src="/images/logo_ua_web.png">
         <h2>Інтернет<br>розробка</h2>
@@ -24,6 +33,9 @@
               <li>(093) 799-39-22</li>
             </ul>
         </div>
+        <p>
+            <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+        </p>
     </div>
 </body>
 </html>

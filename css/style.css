@@ -41,3 +41,6 @@ p {
 ul {
     float:left;
 }
+.fa-mobile, .fa-phone {
+    color:#ffffff;
+}

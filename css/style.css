@@ -2,10 +2,11 @@
 body {
     background-image: url("/images/background.jpg");
     background-size: 100% auto;
+    text-align:center;
 }
 #container {
     margin: 70px auto 0;
-    width: 800px;
+    width: 500px;
 }
 img {
     width: auto;
@@ -16,15 +17,16 @@ h2 {
     font-size: 36px;
     letter-spacing: 0;
     line-height: 48px;
-    margin-top: -115px;
+    margin-top: -120px;
+    padding-right: 90px;
     text-align: right;
     text-transform: uppercase;
 }
 #code {
     border: 1px solid #CCCCCC;
-    border-radius: 12px;
     font-size: 1.2em;
     height: 120px;
+    margin-top: -20px;
     padding: 12px;
     width: 500px;
 }

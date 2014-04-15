@@ -9,3 +9,13 @@ body {
 img {
     width: auto;
 }
+h2 {
+    color: #EEEEEE;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin-top: -140px;
+    text-align: right;
+    text-transform: uppercase;
+}

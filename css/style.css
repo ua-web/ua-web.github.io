@@ -31,3 +31,7 @@ h2 {
     width: 500px;
     color: #111111;
 }
+p, ul {
+    color: #eeeeee;
+    font-family: 'Open Sans',sans-serif;
+}

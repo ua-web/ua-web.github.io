@@ -35,3 +35,9 @@ p, ul {
     color: #eeeeee;
     font-family: 'Open Sans',sans-serif;
 }
+p {
+    font-size:20px;
+}
+ul {
+    float:left;
+}

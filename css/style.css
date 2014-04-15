@@ -12,7 +12,7 @@ img {
     width: auto;
 }
 h2 {
-    color: #111111;
+    color: #eeeeee;
     font-family: 'Open Sans',sans-serif;
     font-size: 36px;
     letter-spacing: 0;
@@ -29,4 +29,5 @@ h2 {
     margin-top: -20px;
     padding: 12px;
     width: 500px;
+    color: #111111;
 }

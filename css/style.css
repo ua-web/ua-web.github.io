@@ -11,6 +11,14 @@ body {
 img {
     width: auto;
 }
+a {
+    color:#eeeeee;
+    font-weight: bold;
+}
+a:hover {
+    color:#111111;
+    text-decoration: none;
+}
 h2 {
     color: #eeeeee;
     font-family: 'Open Sans',sans-serif;

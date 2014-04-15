@@ -5,6 +5,10 @@
 <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 <link rel="stylesheet" href="/font-awesome-4.0.3/css/font-awesome.min.css">
 <link href="/css/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?111"></script>
+<script type="text/javascript">
+  VK.init({apiId: 4309910, onlyWidgets: true});
+</script>
 </head>
 <body>
     <div id="fb-root"></div>
@@ -12,10 +16,12 @@
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=493630977377491";
+      js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1&appId=272319002942593";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     </script>
+    
+    4309910
     <div id="container">
         <img alt="" src="/images/logo_ua_web.png">
         <h2>Інтернет<br>розробка</h2>
@@ -37,6 +43,10 @@
         <p>
             <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
             <g:plusone></g:plusone>
+            <div id="vk_like"></div>
+            <script type="text/javascript">
+            VK.Widgets.Like("vk_like", {type: "full"});
+            </script>
         </p>
     </div>
 </body>
